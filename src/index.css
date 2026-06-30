@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .animate-fade-in-slow {
+    animation: fadeIn 2.5s ease-out forwards;
+  }
+
+  .animate-fade-in-delayed {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out 0.5s forwards;
+  }
+  
+  .animate-fade-in-delayed-2 {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out 1s forwards;
+  }
+
+  .animate-fade-in-delayed-3 {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out 1.5s forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

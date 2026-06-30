@@ -1,0 +1,6 @@
+{
+  "name": "Morrowind RTS",
+  "description": "An Age of Empires style RTS prototype set in Morrowind.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
